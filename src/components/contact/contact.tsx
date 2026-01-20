@@ -67,7 +67,7 @@ export const Contact = (props: ContactProps) => {
               <VStack align="start" gap={5}>
                 <Text>
                   Continuing will open your default SMTP provider. You will be provided with a
-                  template to email your details with. Please me give time to respond.
+                  template to email your details with. Please give me time to respond.
                 </Text>
 
                 <Text>
