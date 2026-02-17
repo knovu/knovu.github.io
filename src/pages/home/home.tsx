@@ -26,13 +26,13 @@ export const Home = (props: HomeProps) => {
               gap={20}
               justify={'space-between'}
             >
-              <Box w={{ mdDown: '100%', md: '60%' }}>
+              <Box w={{ lgDown: '100%', lg: '60%' }}>
                 <VStack
-                  align={{ mdDown: 'center', md: 'start' }}
+                  align={{ lgDown: 'center', lg: 'start' }}
                   gap={14}
-                  w={{ mdDown: '100%', md: 'xl' }}
+                  w={{ lgDown: '100%', lg: 'xl' }}
                 >
-                  <VStack w="100%" align={{ mdDown: 'center', md: 'start' }} gap={10}>
+                  <VStack w="100%" align={{ lgDown: 'center', lg: 'start' }} gap={10}>
                     <Heading fontSize={'2xl'} fontWeight={'semibold'}>
                       Hi there!
                     </Heading>
@@ -49,16 +49,16 @@ export const Home = (props: HomeProps) => {
                     </Heading>
                   </VStack>
 
-                  <VStack align={{ mdDown: 'center', md: 'inherit' }} w="100%" gap={5}>
-                    <VStack align={{ mdDown: 'center', md: 'inherit' }} w="100%">
+                  <VStack align={{ lgDown: 'center', lg: 'inherit' }} w="100%" gap={5}>
+                    <VStack align={{ lgDown: 'center', lg: 'inherit' }} w="100%">
                       <Heading fontSize="2xl" fontWeight={'semibold'}>
-                        Senior Software Engineer
+                        Senior Full Stack Engineer
                       </Heading>
                       <Text
                         fontSize="lg"
                         color="gray.500"
                         maxW={'sm'}
-                        textAlign={{ mdDown: 'center' }}
+                        textAlign={{ lgDown: 'center' }}
                       >
                         I build scalable, production-grade systems with a focus on performance,
                         reliability, and real business impact.
@@ -72,12 +72,12 @@ export const Home = (props: HomeProps) => {
                   </VStack>
 
                   <Stack
-                    direction={{ mdDown: 'column', md: 'row' }}
-                    align={{ mdDown: 'center', md: 'start' }}
+                    direction={{ lgDown: 'column', lg: 'row' }}
+                    align={{ lgDown: 'center', lg: 'start' }}
                     w="100%"
-                    gap={{ mdDown: 5, md: 10 }}
+                    gap={{ lgDown: 5, lg: 10 }}
                   >
-                    <VStack align="start">
+                    <VStack align={{ lgDown: 'center', lg: 'start' }}>
                       <HStack fontSize="lg">
                         <LuMail />
                         <Heading>Email</Heading>
@@ -85,7 +85,7 @@ export const Home = (props: HomeProps) => {
                       <Text>jess.graham.biz@gmail.com</Text>
                     </VStack>
 
-                    <VStack align="start">
+                    <VStack align={{ lgDown: 'center', lg: 'start' }}>
                       <HStack fontSize="lg">
                         <LuMapPin />
                         <Heading>Location</Heading>
@@ -96,7 +96,7 @@ export const Home = (props: HomeProps) => {
                 </VStack>
               </Box>
 
-              <Box justifyContent={'center'} display={{ mdDown: 'none', md: 'flex' }}>
+              <Box justifyContent={'center'} display={{ lgDown: 'none', lg: 'flex' }}>
                 <Logo w={{ mdDown: '300px', md: '600px' }} />
               </Box>
             </Stack>

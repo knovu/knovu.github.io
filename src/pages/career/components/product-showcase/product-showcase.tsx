@@ -66,7 +66,7 @@ export const ProductShowcase = forwardRef<HTMLDivElement, ProductShowcaseProps>(
             </VStack>
 
             <Box bgColor={'gray.100'} _dark={{ bgColor: 'gray.200' }} borderRadius={'lg'}>
-              <Card.Root w={{ lgDown: 'xs', lg: 'lg' }}>
+              <Card.Root w={{ lg: 'lg' }}>
                 <Card.Header>Experience</Card.Header>
                 <Card.Body>
                   <List.Root variant="plain" gap={2}>
